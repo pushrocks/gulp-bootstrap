@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/pushrocks/gulp-bootstrap/issues"
   },
-  "homepage": "https://github.com/pushrocks/gulp-bootstrap"
+  "homepage": "https://github.com/pushrocks/gulp-bootstrap",
+  "dependencies": {
+  }
 }
