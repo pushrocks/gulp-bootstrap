@@ -24,5 +24,7 @@
   "dependencies": {
   },
   "devDependencies":{
+    "gulp":"latest",
+    "gulp-typescript":"latest"
   }
 }
