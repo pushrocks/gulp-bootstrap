@@ -1,8 +1,6 @@
 /// <reference path="typings/tsd.d.ts" />
-var path, through;
-
-through = require("through2");
-path = require("path");
+var through = require("through2");
+var path = require("path");
 
 module.exports = (jadeTemplate,mojo = undefined) => {
 
