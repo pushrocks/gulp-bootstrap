@@ -16,11 +16,11 @@ Features:
 * Have a master branch for the latest dev version
 * Have a release branch for the latest npm version
 
-This package doesn't require global gulp (just local -> simply do npm install`) to compile TypeScript.
+This package **doesn't require global gulp** (just local -> simply do npm install`) to compile TypeScript.
 
-to compile TypeScript do `npm test`
-to setup release do `npm run setup`
-to release a patch do `npm run release`
+* to compile TypeScript do `npm test` (You should chain your own tests to this command later on)
+* to setup release do `npm run setup`
+* to release a patch do `npm run release`
 
 We recommend using travis for npm releasing and test integration.
 
