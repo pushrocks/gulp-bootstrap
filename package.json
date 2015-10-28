@@ -1,6 +1,6 @@
 {
   "name": "gulp-bootstrap",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with TypeScript, Travis and npm.",
   "main": "index.js",
   "scripts": {
