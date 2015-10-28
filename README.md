@@ -7,10 +7,20 @@ works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with
 
 ### Usage
 This npm package comes with everything you need to start your own gulp plugin.
+This package doesn't require global gulp (just local -> simply do npm install`) to compile TypeScript.
 
-We recommend modifying the ts/index.ts file, 
-then run `npm install` to install the dev dependencies
-and use `npm test` to compile the TypeScript file.
- 
-Cheers  
-Phil from Lossless Digital
+to compile TypeScript do `npm test`
+to setup release do `npm run setup`
+to release a patch do `npm run release`
+
+We recommend using travis for npm releasing and test integration.
+
+#### The structure
+
+```
+ts/
+|- compile/
+|  |- compile.js **** contains gulp task`
+|- index.ts **** Your main TypeScript file. 
+```
+
