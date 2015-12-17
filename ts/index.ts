@@ -2,7 +2,7 @@
 var through = require("through2");
 var path = require("path");
 
-module.exports = (jadeTemplate,mojo = undefined) => {
+module.exports = (myArg1 = "undefined",myArg2 = true) => {
 
     return through.obj((file, enc, cb) => {
 
