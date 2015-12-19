@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
-    "pushrocks": "^1.0.18",
-    "through2": "^2.0.0"
+    "pushrocks": "1.0.25",
+    "through2": "2.0.0"
   },
   "devDependencies": {
     "gulp": "3.9.0",
-    "gulp-typescript": "2.9.2"
+    "gulp-typescript": "2.10.0"
   }
 }
