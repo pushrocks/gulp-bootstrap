@@ -1,4 +1,5 @@
 node_modules/
+coverage/
 .settings/
 .idea/
 .c9/
@@ -9,3 +10,4 @@ npm-debug.log
 
 ts/*.js
 ts/*.js.map
+ts/typings/

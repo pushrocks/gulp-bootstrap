@@ -4,13 +4,7 @@
   "description": "works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with TypeScript, Travis and npm.",
   "main": "index.js",
   "scripts": {
-    "test": "(cd ts/compile && node compile.js) && (node ./test.js)",
-    "gitsetup": "(git config push.followTags true)",
-    "push": "(git push origin master && git push origin release && git push --follow-tags)",
-    "reinstall": "(rm -r node_modules && npm install)",
-    "release": "(npm test) && (git pull origin master && npm version patch && git checkout release && git merge master && git checkout master && npm run push)",
-    "update": "(git checkout master && git pull origin master) && (npm install)",
-    "upgrade": "(npm run update) && (ncu upgradeAll && npm install)"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -29,10 +23,11 @@
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
     "pushrocks": "1.0.25",
-    "through2": "2.0.0"
+    "through2": "2.0.1"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.10.0"
+    "gulp": "^3.9.1",
+    "gulp-function": "^1.0.4",
+    "npmts": "^2.2.3"
   }
 }
