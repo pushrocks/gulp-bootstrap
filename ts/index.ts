@@ -1,4 +1,4 @@
-/// <reference path="typings/main.d.ts" />
+import "typings-global"
 var through = require("through2");
 var path = require("path");
 

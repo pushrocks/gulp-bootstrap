@@ -1,4 +1,4 @@
-/// <reference path="typings/main.d.ts" />
+import "typings-global"
 var plugins = {
     gulp: require("gulp"),
     gulpBootstrap: require("../index.js"),

@@ -1,2 +1,2 @@
 # Testfile
-This is a testfile.
+This is a testfile. It gets piped when testing.
