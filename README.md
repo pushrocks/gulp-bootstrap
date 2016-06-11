@@ -22,4 +22,3 @@ Features:
 
 This package only has 1 dev-dependency: npmts-g. It searches for npmts globally and tests the version.
 If for any reason the npmts global dependency is not fullfilled it'll try to install npmts locally
-
