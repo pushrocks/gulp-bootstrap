@@ -1,5 +1,5 @@
 # gulp-bootstrap
-works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with TypeScript, Travis and npm.
+works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with TypeScript.
 
 ### Buildstatus/Dependencies
 [![Build Status](https://travis-ci.org/pushrocks/gulp-bootstrap.svg?branch=master)](https://travis-ci.org/pushrocks/gulp-bootstrap)
@@ -18,10 +18,8 @@ Features:
   * compile TypeScript
   * run mocha tests
   * get coverage with istanbul
-  * upload it to coveralls with travis.
-* Use travis to deploy to npm
+  * create declaration files for TypeScript module support
 
-This package only has 1 dev-dependency: npmts
-
-We recommend using travis for npm releasing and test integration.
+This package only has 1 dev-dependency: npmts-g. It searches for npmts globally and tests the version.
+If for any reason the npmts global dependency is not fullfilled it'll try to install npmts locally
 
